@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#container {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border: 2px solid #000;
+    transition: background-color 0.3s;
+}
+
+#text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#toggleButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #d852ab;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#toggleButton.active {
+    background-color: #632121;
+}
